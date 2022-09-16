@@ -2,3 +2,54 @@ body {
     background-color: blanchedalmond;
     font-family: "Roboto";
 }
+#maintitle {
+    text-align: center;
+}
+
+#main-container-maintitle {
+    text-align: center;
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+
+}
+/* card template for each books */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: aquamarine;
+    margin: 2vmin;
+}
+.card-title {
+    background-color: dodgerblue;
+}
+.card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#main {
+    order: 1;
+    flex-grow: 6;
+    background-color: burlywood;
+}
+/* side styles*/
+#side {
+    order: 2;
+    flex-grow: 3;
+    flex: none;
+    background-color: steelblue;
+}
+
+#side-title {
+    background-color: blanchedalmond;
+}

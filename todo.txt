@@ -1,3 +1,13 @@
 1, Set up landing page.
 2, Add UI: Including Card template for each book, Main title, and add style so that it looks nice. Challenge: don't use bootstrap unless you have to
 3, Write js script to take in users form, add buttons.
+
+
+Finished step 1 for now.
+
+For step 2:
+1, Add button styles
+
+For step 3:
+1, I think I can move on writing the script for now. The css problem can be solve on the side if I thought of a solution or why it is like that.
+2, I'm thinking of adding a backend such that it can remember the user's book data as well. I've never done backend for nodejs before but this simple problem might be a good beginner's step.

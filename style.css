@@ -20,6 +20,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     background-color: aquamarine;
+    max-width: 30%;
     margin: 2vmin;
 }
 .card-title {
@@ -35,6 +36,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
+    flex: none;
 }
 
 #main {
@@ -48,8 +50,15 @@ body {
     flex-grow: 3;
     flex: none;
     background-color: steelblue;
+    min-width: 20%;
 }
 
 #side-title {
     background-color: blanchedalmond;
+}
+
+div .stat-list {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
 }

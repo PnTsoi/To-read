@@ -11,3 +11,4 @@ For step 2:
 For step 3:
 1, I think I can move on writing the script for now. The css problem can be solve on the side if I thought of a solution or why it is like that.
 2, I'm thinking of adding a backend such that it can remember the user's book data as well. I've never done backend for nodejs before but this simple problem might be a good beginner's step.
+3, so ummm.... I'm kinda stuck at js forms rn so I'll return to this project later lol.

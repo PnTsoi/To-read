@@ -18,3 +18,7 @@ There's this thing called localStorage ( thanks to CatQueenCodes's own reading l
 you can store the data in the users' local storage. But... where does that data actually stored in the users' computer?
 
 So apparently it's store in the users' disk, and get called upon everytime the browser is opened... I think?
+
+
+9/18/2022: everything seems to work fine for now. I might wanna do some extra tests, but all things work as I expected it to be.
+I'll start working on the css to make this site look more ... servicable!

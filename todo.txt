@@ -22,3 +22,5 @@ So apparently it's store in the users' disk, and get called upon everytime the b
 
 9/18/2022: everything seems to work fine for now. I might wanna do some extra tests, but all things work as I expected it to be.
 I'll start working on the css to make this site look more ... servicable!
+
+9/19: I'll try to fix the finish-reading status bug, and add the feature to count books and unfinished books.

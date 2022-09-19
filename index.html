@@ -23,10 +23,10 @@
                         <h3>Lorem ipsum dolor sit amet.</h3>
                     </div>
                     <p class="card-author">Lorem, ipsum.</p>
-                    <p class="card-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos id et esse.</p>
                     <div class="card-container">
                         <p class="page">Lorem.</p>
                         <button class="update-card">Update page and status!</button>
+                        <button type="submit" id="removeButton" form="form">Remove Book</button>
                     </div>
                     <div class="status">Read</div>
                 </div>
@@ -57,10 +57,23 @@
             </div>
         </section>
     </div>
+    <div id="update-form" class="popup-container">
+        <form class="form" id="updateBookForm" action="/sandbox.js">
+            <span id="updateFormClose" class="form-close">&times;</span>
+            <div id="input">
+                <p><input type="text" id="updateTitle" name="title" placeholder="Title"></p>
+                <p><input type="text" id="updateAuthor" name="author" placeholder="Author"></p>
+                <p><input type="number" id="updatePagesRead" name="pages read" placeholder="Number of pages read"></p>
+                <p><input type="number" id="updatePagesTotal" name="pages total" placeholder="Number of pages total"></p>
+                <p>Read yet? <input type="checkbox" id="updateReadStatus"></p>
+                <button type="submit" id="updateSubmitButton" form="form">Submit</button>
+            </div> 
+        </form>
+    </div>
 
-    <div id="popup-container">
-        <form id="form" action="/sandbox.js">
-            <span id="form-close">&times;</span>
+    <div id="new-form" class="popup-container">
+        <form class="form" id="newBookForm" action="/sandbox.js">
+            <span class="form-close" id="newBookFormClose">&times;</span>
             <div id="input">
                 <p><input type="text" id="title" name="title" placeholder="Title"></p>
                 <p><input type="text" id="author" name="author" placeholder="Author"></p>

@@ -15,7 +15,7 @@ body {
 
 }
 /* form template */
-#popup-container {
+.popup-container {
     display: none;
     grid-template-columns: repeat(10, 10fr);
     flex-wrap: wrap;
@@ -32,13 +32,19 @@ body {
     height: 100%;
     background:rgba(255,255,255,0.5);
 }
-#form {
+.form {
     border: 3px solid cornflowerblue;
     background-color: aliceblue;
     padding: 0.8vw;
 }
-#form-close {
+.form-close {
     cursor: pointer; 
+}
+
+/* update form */
+#updateFormClose {
+    cursor: pointer;
+
 }
 /* card template for each books */
 .card {

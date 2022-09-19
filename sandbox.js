@@ -150,8 +150,7 @@ function updateObj(book) {
         let updatedBookStatus = document.getElementById('updateReadStatus').value; 
 
         var currentIndex = books.indexOf(book);
-        books.splice(currentIndex, 1);
-        books.push((new bookObj(updatedTitle, updatedAuthor, updatedPagesTotal, updatedPagesRead, updatedBookStatus)));
+        books[currentIndex] = new bookObj(updatedTitle, updatedAuthor, updatedPagesTotal, updatedPagesRead, updatedBookStatus);
 
         storeData();
         render();

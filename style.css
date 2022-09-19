@@ -57,6 +57,7 @@ body {
 }
 .card-title {
     background-color: dodgerblue;
+    padding: 2vmin;
 }
 .card-container {
     display: flex;
@@ -81,7 +82,6 @@ body {
 #main {
     order: 1;
     flex-grow: 6;
-    background-color: burlywood;
 }
 /* side styles*/
 #side {
